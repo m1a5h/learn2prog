@@ -1,7 +1,4 @@
-Grading at Wed 21 Sep 2022 07:47:06 PM UTC
-I expected to find a file called 'hello.txt' but it did not exist
-(or was not a regular file)
-Here are the files that I can find:
-README
+Grading at Thu 22 Sep 2022 08:44:40 AM UTC
+Your file matched the expected output
 
-Overall Grade: FAILED
+Overall Grade: PASSED
