@@ -1,4 +1,4 @@
-Grading at Sat 24 Sep 2022 11:42:01 PM UTC
+Grading at Sat 24 Sep 2022 11:59:07 PM UTC
 Attempting to compile rectangle.c
 rectangle.c:21:1: error: unknown type name ‘rectangle’
    21 | rectangle canonicalize(rectangle r) {
