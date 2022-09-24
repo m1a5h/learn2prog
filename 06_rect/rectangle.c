@@ -8,6 +8,7 @@ int min (int a, int b) {
   }
   return b;
 }
+
 int max (int a, int b) {
   if (a > b) {
     return a;
@@ -17,9 +18,23 @@ int max (int a, int b) {
 
 //Declare your rectangle structure here!
 
+typedef struct rectangle {
+  int x;
+  int y;
+  int width;
+  int height;
+} rectangle;
 
 rectangle canonicalize(rectangle r) {
   //WRITE THIS FUNCTION
+  if (r.width < 0) {
+    r.x += r.width;
+    r.width = -r.width;
+  }
+  if (r.height < 0) {
+    r.y += r.height;
+    r.height = -r.height;
+  }
   return r;
 }
 rectangle intersection(rectangle r1, rectangle r2) {
@@ -35,7 +50,7 @@ void printRectangle(rectangle r) {
   }
   else {
     printf("(%d,%d) to (%d,%d)\n", r.x, r.y, 
-	                           r.x + r.width, r.y + r.height);
+	   r.x + r.width, r.y + r.height);
   }
 }
 
