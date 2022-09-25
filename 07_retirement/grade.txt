@@ -1,0 +1,8 @@
+Grading at Sun 25 Sep 2022 08:30:59 PM UTC
+Attempting to compile retirement.c
+gcc: error: retirement.c: No such file or directory
+gcc: fatal error: no input files
+compilation terminated.
+The code did not compile!
+
+Overall Grade: F
