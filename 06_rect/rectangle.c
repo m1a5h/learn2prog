@@ -18,14 +18,12 @@ int max (int a, int b) {
 
 //Declare your rectangle structure here!
 
-struct rectangle_t {
+typedef struct {
   int x;
   int y;
   int width;
   int height;
-};
-
-typedef struct rectangle_t rectangle;
+} rectangle;
 
 rectangle canonicalize(rectangle r) {
   //WRITE THIS FUNCTION
