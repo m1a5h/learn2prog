@@ -16,16 +16,19 @@ double new_balance (double startBalance, double contribution, double rate_of_ret
 
 
 void retirement (int startAge, double initial, retire_info working, retire_info retired) {
+  int age = startAge;
   double current_balance = initial;
   
   for (int m = 0; m < working.months; m++) {
-    printf("Age %3d month %2d you have $%.21f\n", startAge + m, m % 12, current_balance);
+    printf("Age %3d month %2d you have $%.2lf\n", age / 12, age % 12, current_balance);
     current_balance = new_balance(current_balance, working.contribution, working.rate_of_return);
+    age++;
   }
 
   for (int m = 0; m < retired.months; m++) {
-    printf("Age %3d month %2d you have $%.21f\n", startAge + m / 12, m % 12, current_balance);
+    printf("Age %3d month %2d you have $%.2lf\n", age / 12, age % 12, current_balance);
     current_balance = new_balance(current_balance, retired.contribution, retired.rate_of_return);
+    age++;
   }
 }
 
