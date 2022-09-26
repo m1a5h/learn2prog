@@ -1,0 +1,24 @@
+ 
+a a
+a b
+aaaaa bbbbb
+bbbbb aaaaa
+aaaaa bbbbc
+aaaaa bbbcc
+aaaaa bbccc
+aaaaa bcccc
+aaaaa bbcde
+aaaaa bcdef
+aaaab bbbbb
+aaabb bbbbb
+aabbb bbbbb
+aaaab bbbbc
+aaaab bbccc
+aabbb bbccc
+aaaaaa bbbbb
+aaaa bbbbbb
+aaaaa bbbbbb
+aaaaa bbbb
+a
+b
+a a a
