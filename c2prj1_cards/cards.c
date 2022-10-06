@@ -44,8 +44,8 @@ const char * ranking_to_string(hand_ranking_t r) {
     r_str = "pair";
     break;
     
-  case NOTHIN:
-    r_str = "nothin";
+  case NOTHING:
+    r_str = "nothing";
     break;
   }
   return r_str;
